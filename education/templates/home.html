@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+{% load static %}
+<html class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="author" content="Themefisher.com" />
+
+    <title>God's Eye</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="static/plugins/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/css/settings.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/css/navigation.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/fonts/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/css/settings.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/plugins/revo-slider/css/navigation.css"
+    />
+    <link rel="stylesheet" href="static/plugins/themefisher-font/style.css" />
+    <link
+      rel="stylesheet"
+      href="static/plugins/lightbox2/dist/css/lightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="static/plugins/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="static/plugins/slick-carousel/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <style>
+      .col-center {
+        margin: 0 auto;
+        float: none !important;
+      }
+
+      .carousel {
+        padding: 0 70px;
+      }
+
+      .carousel .carousel-item {
+        color: #999;
+        font-size: 14px;
+        text-align: center;
+        overflow: hidden;
+        min-height: 290px;
+      }
+
+      .carousel .carousel-item .img-box {
+        width: 135px;
+        height: 135px;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+      }
+
+      .carousel .img-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+      }
+
+      .carousel .testimonial1 {
+        padding: 30px 0 10px;
+      }
+
+      .carousel .overview {
+        font-style: italic;
+      }
+
+      .carousel .overview b {
+        text-transform: uppercase;
+        color: #293349;
+      }
+
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        top: 50%;
+        background: none;
+      }
+
+      .carousel-control-prev i,
+      .carousel-control-next i {
+        font-size: 68px;
+        line-height: 42px;
+        position: absolute;
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.8);
+        text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+      }
+
+      .carousel-indicators {
+        bottom: -40px;
+      }
+
+      .carousel-indicators li,
+      .carousel-indicators li.active {
+        width: 12px;
+        height: 12px;
+        margin: 1px 3px;
+        border-radius: 50%;
+        border: none;
+      }
+
+      .carousel-indicators li {
+        background: #999;
+        border-color: transparent;
+        box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+      }
+
+      .carousel-indicators li.active {
+        background: #555;
+        box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body id="body">
+    <div id="preloader">
+      <div class="preloader">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+    <section class="header navigation fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="home.html">
+                <img
+                  src="static/images/logo.jpg"
+                  width="100"
+                  height="47"
+                  alt="logo"
+                />
+                <span style="color: white"> God's Eye</span>
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="tf-ion-android-menu"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="awareness.html">Awareness</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+Welcome Slider
+==================================== -->
+    <section class="hero-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="video-player">
+              <img
+                class="img-fluid rounded w-100"
+                src="static/images/ssf.png"
+                alt=""
+              />
+              <img class="play-icon dark" href="javascript:void(0)"
+                
+                  class="tf-ion-play"
+                  src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2008/11/21/Blind-children.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=d2c6b5ca6c9f5d25751199449aeb6060"
+            >
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="block">
+              <h2>God's Eye</h2>
+              <p>
+                God’s eye is an artificial intelligence based web
+                application/platform for blind children to help them perform
+                their everyday chores using a voice assistant without help from
+                anyone. This platform helps them to interact with the
+                environment, enables them to learn from their surrounding by
+                identifying various things and scenes around them, and also aids
+                them in recognizing their friends and family. To utilize this
+                application, the visually impaired person needs to speak or tap
+                on the device to perform a particular task. So, it is pretty
+                easy to use once configured as per the requirement.
+              </p>
+              <ul
+                class="list-inline wow fadeInUp"
+                data-wow-duration=".5s"
+                data-wow-delay=".7s"
+              >
+                <li class="list-inline-item">
+                  <a href="#contact" class="btn btn-main">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+Start About Section
+==================================== -->
+    <section class="about-2 section bg-gray" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <h2>About God's Eye</h2>
+          </div>
+          <div class="col-12 col-md-7">
+            <p>
+              God’s eye is an AI-based web application for blind children to
+              help them perform their everyday chores themselves using a voice
+              assistant and without any other help from anyone. This platform
+              helps them to interact with the environment, enables them to learn
+              from their surrounding by identifying various things around them,
+              and also aids them in recognizing their friends and family.
+            </p>
+            <p>
+              The web application mainly helps children learn through web
+              surfing, reading books through OCR, enrolling in miscellaneous
+              online courses, and listening to audiobooks. College graduates can
+              even search for suitable jobs and apply for them through this
+              portal. Moreover, they can have an online session with a
+              counsellor if they find some difficulty and want to discuss it.
+            </p>
+            <p>
+              To lighten the mood, children can listen to music or jokes. In
+              addition, they can send a message to a friend (if they want)
+              through this medium. The other significant features of this web
+              application include listening to the news, a calculator, and
+              information regarding date, time, and weather.
+            </p>
+          </div>
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <section class="about section-sm" id="about">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-5">
+            <img
+              src="static/images/our_vision.png"
+              class="img-fluid rounded shadow w-100"
+              alt="about-img"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="content">
+              <h2>Our Vision</h2>
+              <p>
+                Visually impaired children often find it challenging to carry
+                out their typical daily activities. So, they require permanent
+                and continuous assistance from their friends or guardians to
+                perform their tasks. Our vision is to make a blind child feel
+                like an able-bodied person who is capable enough to do almost
+                all his daily tasks by himself without any help from anyone. The
+                sightless students are unable to gain knowledge by reading
+                books, surfing the internet, or taking online courses
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 order-md-1 order-2">
+            <div class="content">
+              <h2>Our Mission</h2>
+              <p>
+                We aim to provide a platform where they can learn from their
+                surroundings, by meeting new people, reading books through OCR,
+                listening to audiobooks, and web surfing.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-2 order-1">
+            <img
+              src="static/images/our_mission.png"
+              class="img-fluid rounded shadow w-100"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <section class="team section bg-gray" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title text-center">
+              <h4>TEAM MEMBER</h4>
+              <h2>Our Team.</h2>
+              <span class="border"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#myCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="img-box">
+                    <img src="static/Team/1.jpg" alt="" />
+                  </div>
+
+                  <p class="overview"><b>Jashandeep singh</b>, CSE, TIET</p>
+                  <div class="member-content">
+                    <span>Leader</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur necessitatibus ullam, culpa odio.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-google-outline"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-dribbble"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="static/Team/1.jpg" alt="" />
+                  </div>
+
+                  <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                  <div class="member-content">
+                    <span>Head Of Marketing</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur necessitatibus ullam, culpa odio.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-google-outline"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-dribbble"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="static/Team/1.jpg" alt="" />
+                  </div>
+
+                  <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                  <div class="member-content">
+                    <span>Head Of Marketing</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur necessitatibus ullam, culpa odio.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-google-outline"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-dribbble"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="static/Team/1.jpg" alt="" />
+                  </div>
+
+                  <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                  <div class="member-content">
+                    <span>Head Of Marketing</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur necessitatibus ullam, culpa odio.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-google-outline"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-dribbble"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="static/Team/1.jpg" alt="" />
+                  </div>
+
+                  <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                  <div class="member-content">
+                    <span>Head Of Marketing</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur necessitatibus ullam, culpa odio.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-google-outline"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-dribbble"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="static/Team/1.jpg" alt="" />
+                  </div>
+
+                  <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                  <div class="member-content">
+                    <span>Head Of Marketing</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur necessitatibus ullam, culpa odio.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-google-outline"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="tf-ion-social-dribbble"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a
+                class="carousel-control-prev"
+                href="#myCarousel"
+                data-slide="prev"
+              >
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#myCarousel"
+                data-slide="next"
+              >
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <!-- Start Our Team
+=========================================== -->
+
+    <!-- End section -->
+    <!-- Srart Contact Us
+		=========================================== -->
+    <section class="contact-us section bg-gray" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title text-center">
+              <h4>Drop us a note</h4>
+              <h2>Contact Us.</h2>
+              <span class="border"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row"></div>
+        <!-- end row -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="address-block contact-meta-block">
+              <i class="tf-ion-android-pin"></i>
+              <h4>Our Location</h4>
+              <p>
+                Thapar Institute of Engineeeing and technology<br />
+                Patiala, Punjab, India <br />
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="phone-block contact-meta-block">
+              <i class="tf-ion-ios-email"></i>
+              <h4>Email Us</h4>
+              <p>gods_eye@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social-icons-block contact-meta-block">
+              <i class="tf-ion-ios-contact"></i>
+              <h4>We are social</h4>
+              <ul class="list-inline social-icon">
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.facebook.com/Saraswati-Seva-Foundation-106550798197456/"
+                    ><i class="tf-ion-social-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/saraswati_seva?s=08"
+                    ><i class="tf-ion-social-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.instagram.com/saraswati.seva.foundation/?hl=en"
+                    ><i class="tf-ion-social-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end section -->
+
+    <footer id="footer" class="bg-one">
+      <div class="top-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+              <!-- <h3>Our Services</h3>
+			<ul>
+			  <li><a href="#">Graphic Design</a></li>
+			  <li><a href="#">Web Design</a></li>
+			  <li><a href="#">Web Development</a></li>
+			</ul> -->
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+              <h3>About</h3>
+              <p>
+                God’s eye is an AI-based web application for blind children to
+                help them perform their everyday chores themselves using a voice
+                assistant and without any other help from anyone
+              </p>
+            </div>
+            <!-- End of .col-sm-3 -->
+
+            <!-- End of .col-sm-3 -->
+
+            <!-- End of .col-sm-3 -->
+
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+              <h3>Subscribe Now</h3>
+              <form class="subscribe-form">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <button type="submit" class="btn btn-main-sm">
+                  Subscribe Now
+                </button>
+              </form>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+              <!-- <h3>Quick Links</h3>
+			<ul>
+			  <li><a href="#">Partners</a></li>
+			  <li><a href="#">About</a></li>
+			  <li><a href="#">FAQ’s</a></li>
+			  <li><a href="#">Badges</a></li>
+			</ul> -->
+            </div>
+            <!-- End of .col-sm-3 -->
+          </div>
+        </div>
+        <!-- end container -->
+      </div>
+      <div class="footer-bottom">
+        <h5>Copyright 2022. All rights reserved.</h5>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- end Footer Area
+========================================== -->
+
+    <!-- 
+Essential Scripts
+=====================================-->
+    <!-- Main jQuery -->
+    <script src="static/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="static/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="static/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox -->
+    <script src="static/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="static/plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Portfolio Filtering -->
+    <script src="static/plugins/filterzr/jquery.filterizr.min.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="static/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+    <!-- Form Validation -->
+    <script src="static/plugins/form-validation/jquery.form.js"></script>
+    <script src="static/plugins/form-validation/jquery.validate.min.js"></script>
+    <!-- Custom js -->
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/jquery.themepunch.tools.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/jquery.themepunch.revolution.min.js"
+    ></script>
+    <script src="static/js/script.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+(Load Extensions only on Local File Systems ! 
+The following part can be removed on Server for On Demand Loading) -->
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.actions.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.carousel.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.migration.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="static/plugins/revo-slider/js/extensions/revolution.extension.video.min.js"
+    ></script>
+    <script>
+      /* https://learn.jquery.com/using-jquery-core/document-ready/ */
+      jQuery(document).ready(function () {
+        /* initialize the slider based on the Slider's ID attribute */
+        jQuery("#rev_slider_1")
+          .show()
+          .revolution({
+            /* options are 'auto', 'fullwidth' or 'fullscreen' */
+            sliderLayout: "fullscreen",
+
+            /* basic navigation arrows and bullets */
+            navigation: {
+              arrows: {
+                style: "zeus",
+                enable: true,
+                hide_onmobile: true,
+                hide_under: 600,
+                hide_onleave: true,
+                hide_delay: 200,
+                hide_delay_mobile: 1200,
+                tmp: '<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div> </div>',
+                left: {
+                  h_align: "left",
+                  v_align: "center",
+                  h_offset: 30,
+                  v_offset: 0,
+                },
+                right: {
+                  h_align: "right",
+                  v_align: "center",
+                  h_offset: 30,
+                  v_offset: 0,
+                },
+              },
+              bullets: {
+                enable: false,
+                hide_onmobile: true,
+                hide_under: 600,
+                style: "metis",
+                hide_onleave: true,
+                hide_delay: 200,
+                hide_delay_mobile: 1200,
+                direction: "horizontal",
+                h_align: "center",
+                v_align: "bottom",
+                h_offset: 0,
+                v_offset: 30,
+                space: 5,
+                tmp: '<span class="tp-bullet-img-wrap">  <span class="tp-bullet-image"></span></span><span class="tp-bullet-title">{{title}}</span>',
+              },
+            },
+          });
+      });
+    </script>
+  </body>
+</html>

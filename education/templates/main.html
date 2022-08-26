@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LET'S MEET</title>
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+  </head>
+
+  <style>
+    .heading {
+      color: #ffffff;
+    }
+
+    .page th {
+      background-color: #add8e6;
+      color: white;
+    }
+    body {
+
+      background-color: #cccccc;
+      height: 755px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    div#loading {
+      width: 1700px;
+      height: 35px;
+      display: none;
+
+        no-repeat;
+      cursor: wait;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+    .center1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      color: black
+    }
+  </style>
+
+  <body>
+    <h3 id="label-username">USERNAME</h3>
+    <div><input id="username" /><button id="btn-join">Join Room</button></div>
+    <div class="main-grid-container">
+      <div class="video-container">
+        <div>
+          <video
+            id="local-video"
+            style="float: left"
+            autoplay
+            playsinline
+          ></video>
+        </div>
+      </div>
+      {% csrf_token %}
+      <form method="POST" action="index.html" enctype="multipart/form-data">
+        {% csrf_token %}
+        <button
+          type="submit"
+          class="btn btn-primary button_add"
+          style="
+            margin: auto;
+            display: block;
+            border-radius: 200px;
+            width: 90%;
+            height: 38rem;
+          "
+        >
+          <h1 class="heading center1"><b>Tap to Speak</b></h1>
+          <br />
+          <i class="fa fa-5x fa-microphone"></i>
+        </button>
+      </form>
+    </div>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
